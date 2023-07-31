@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Вот  ширина  -->
+    <meta name="viewport" content="width=1120">
+    <title>Apple</title <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__menu">
+                <ul class="header__container">
+                    <li class="header_item">
+                        <a class="header__link" href="#new">Что нового</a>
+                    </li>
+                    <li class="header_item">
+                        <a class="header__link" href="#col">Цвет</a>
+                    </li>
+                    <li class="header_item">
+                        <a class="header__link" href="#buy">Заказать</a>
+                    </li>
+                </ul>
+                <a class="header__logo header_item" href="#"><img src="icons/logo.svg" alt="logo"></a>
+                <a class="header__phone header_item" href="tel:380504565656">+38 050-456-56-56</a>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="choose">
+            <div class="container">
+                <h1 class="choose__title">IPHONE 14 PRO</h1>
+                <img class="choose__img" src="images/phones.png" alt="phones">
+                <a class="choose-btn" href="#buy">ВЫБРАТЬ</a>
+            </div>
+        </section>
+        <section class="news">
+            <div class="container">
+                <h2 id="new" class="news__title">ЧТО НОВОГО</h2>
+                <div class="news__box">
+                    <div class="news__item">
+                        <p class="news-info">Все модели оснащены однокристальной системой A16 Bionic, 48-мегапиксельной
+                            основной камерой и экранами ProMotion с защитой Ceramic Shield и частотным диапазоном 1 —
+                            120 Гц, а также ускоренной памятью LPDDR5. Дизайн линейки обновлен, на фронтальной панели
+                            смартфонов два выреза. </p>
+                        <p class="news-info">Все iPhone 14 в США будут продаваться без лотка для SIM-карт: производитель
+                            заявляет, что улучшенная технология eSIM позволит перенести старые электронные сим-карты на
+                            новые смартфоны.</p>
+                        <p class="news-info">Обновлены фронтальная камера (она снабжена автофокусом и быстрее распознает
+                            пользователя в условиях недостаточной освещенности) и сенсор основной камеры.</p>
+                        <p class="news-info news-bold">iPhone 14 Pro вышел в новом дизайне — без фирменной «челки».
+                            Также в
+                            ассортименте появился новый цвет. В смартфоне, в отличие от «обычных» 14-х айфонов,
+                            установлен процессор A16 Bionic, который может за секунду производить 4 трлн операций с
+                            фото.</p>
+                    </div>
+                    <img class="news-images" src="images/Apple-iPhone-14-Pro-Max 1.jpg" alt="phone">
+                </div>
+            </div>
+        </section>
+        <section class="mobile-color">
+            <div class="container">
+                <h2 id="col" class="mobile-color__title">ВЫБЕРИ СВОЙ ЦВЕТ</h2>
+                <div class="mobile-color-container">
+                    <div class="mobile-color-item">
+                        <a class="mobile-color__link" href="#buy"><img class="mobile-color__img"
+                                src="images/phone-1.jpg" alt="phone"></a>
+                        <h3 class="mobile-phone-item__title">Silver</h3>
+                        <p class="mobile-color__descr">Серебристый</p>
+                    </div>
+                    <div class="mobile-color-item">
+                        <a class="mobile-color__link" href="#buy"><img class="mobile-color__img" src="images/phone-2.jpg"
+                                alt="phone"></a>
+                        <h3 class="mobile-phone-item__title">Deep purple</h3>
+                        <p class="mobile-color__descr">Серебристый</p>
+                    </div>
+                    <div class="mobile-color-item">
+                        <a class="mobile-color__link" href="#buy"><img class="mobile-color__img" src="images/phone-3.jpg"
+                                alt="phone"></a>
+                        <h3 class="mobile-phone-item__title">Gold</h3>
+                        <p class="mobile-color__descr">Серебристый</p>
+                    </div>
+                    <div class="mobile-color-item">
+                        <a class="mobile-color__link" href="#buy"><img class="mobile-color__img" src="images/phone-4.jpg"
+                                alt="phone"></a>
+                        <h3 class="mobile-phone-item__title">Space Black</h3>
+                        <p class="mobile-color__descr">Серебристый</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contancts">
+            <div class="container">
+                <div class="contacts-inner">
+                    <div class="contacts__buy">
+                        <h2 class="contacts__title">ХОЧЕШЬ IPHONE 14 PRO?</h2>
+                        <form id="buy" class="contacts-form-container" action="/" method="post">
+                            <input class="cotacts-form" type="text" placeholder="Ваше имя">
+                            <input class="cotacts-form" type="tel" placeholder="Номер телефона">
+                        </form>
+                        <p class="contacts__text">В ближайшее время наш менеджер свяжется с Вами</p>
+                        <button class="contacts-btn" type="submit">ЗАКАЗАТЬ</button>
+                    </div>
+                    <img class="contacts__img" src="images/hero_endframe__cvklg0xk3w6e_large 1.jpg"  alt="phone">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <a class="footer-politic" href="#">Политика конфиденциальности</a>
+                <a class="footer__logo-link"><img class="footer__logo-img" src="icons/logo.svg" alt="logo"></a>
+                <a class="footer__phone" href="tel:380504565656">+38 050-456-56-56</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
